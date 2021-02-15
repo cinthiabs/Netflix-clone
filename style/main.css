@@ -1,0 +1,168 @@
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/*elementos base*/
+body{
+ background: rgb(27, 25, 25);
+   font-family: 'Arial', Times, serif;
+   color:white;
+}
+
+
+header .container{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+
+header nav a{
+    text-decoration:none;
+    color:rgb(241, 240, 240);
+    margin-right: 10px;
+    margin-top: 0px;
+    font-size: 13px;
+   
+}
+
+
+header nav a:hover{
+    color:#fff;
+}
+
+header{
+   
+    width: 100%;
+    height: 63px;
+    background-color: #000000;
+    position: fixed;
+}
+
+/*filme principal*/
+.filme-principal{
+    font-size:16px;  
+    background-image: linear-gradient(to left, transparent 0%, rgb(46, 46, 46) 100%),url(../img/principal01.jpg);
+    height:700px;
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+.filme-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+
+.filme-principal .titulo{
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border:none;
+    color: white;
+    font-weight: bold;
+    padding:15px 30px;
+    margin-right: 15px;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+.texto{
+    color: rgb(165, 165, 165);
+}
+.botao1{
+    background-color:white;
+    border:none;
+    color:black;
+    font-weight: bold;
+    padding:15px 30px;
+    margin-right: 15px;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao1:hover{
+    background-color: rgba(0,0,0,.50);
+      color: white;
+}
+.botao:hover{
+    background-color:white;
+    color:black;
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+
+.container{
+    margin-left: 20px;
+}
+
+.filme-principal .container{
+    width: 70%;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+    transition:transform 0.5s;
+}
+
+.box-filme:hover{
+    transform: translateY(-10px);
+}
+
+.carrosel-filmes{
+    margin-top:5px;
+}
+
+
+
+
+.btn1{
+    padding: 10px;
+ background-color: rgb(204, 6, 6);
+ border-radius: 3px;
+}
+.btn1:hover{
+    background-color: rgb(165, 15, 15);
+}
+.btn2{
+    padding: 10px;
+    border: 1px solid rgb(209, 206, 206);
+    border-radius: 3px;
+}
+.btn2:hover{
+    background-color: rgb(151, 151, 151);
+}
+
+
+
+
+
+
+
+
+
+
+
